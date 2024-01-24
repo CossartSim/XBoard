@@ -1,0 +1,3 @@
+import xboard
+
+xboard.hello()
