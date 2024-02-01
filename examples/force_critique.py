@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import time
 
-myboard = XBoard()
+myboard = XBoard("192.168.43.207")
 
 ## Parametres Force critique
 nom_user = "Tom"

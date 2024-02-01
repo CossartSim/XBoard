@@ -5,8 +5,8 @@ import json
 import time
 
 class XBoard():
-    def __init__(self):
-        self.ip = '192.168.4.1'
+    def __init__(self, ip = '192.168.4.1'):
+        self.ip = ip
         self.port = 80
 
         self.data = [[]]
@@ -83,7 +83,7 @@ class XBoard():
         self.envoi_commande(json_data)
 
     def capture_data(self, loc_data, timestamp):
-        messages = SSEClient('http://192.168.4.1/events')
+        messages = SSEClient('http://{}/events'.format(self.ip))
         raw_prev = []
         for msg in messages:
             if msg.event == "data":

@@ -1,6 +1,7 @@
 from xboard import XBoard
+import time
 
-myboard = XBoard()
+myboard = XBoard("192.168.43.207")
 
 myboard.libre()
 time.sleep(2)

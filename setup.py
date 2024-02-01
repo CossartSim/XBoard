@@ -1,15 +1,16 @@
 from setuptools import setup, find_packages
 
+
 with open("README.md", "r") as file:
     description = file.read()
 
 setup(
     name = "xboard",
-    version = "0.0.0",
+    version = "1.0.3",
+    description = "API for the XBoard hangboard",
+    url = "https://github.com/CossartSim/XBoard",
     packages = find_packages(),
-    install_requires = [
-        # dependences
+    install_requires=[
+        "sseclient>=0.0.20",
     ],
-    long_description=description,
-    long_description_content_type="text/markdown",
 )
