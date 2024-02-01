@@ -1,0 +1,1 @@
+from xboard.main import XBoard
