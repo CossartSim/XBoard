@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
 <h1>API de la poutre d'escalade XBoard</h1>
 
 Cette API permet de lancer des exercices sur la poutre une fois que celle-ci est connectée.
@@ -7,7 +10,9 @@ Cette API permet de lancer des exercices sur la poutre une fois que celle-ci est
 <p>Ci-dessous, quelques exercices sont proposés pour servir de base</p>
 
 <li>Démonstration des fonctionnalités</li>
-https://colab.research.google.com/github/CossartSim/XBoard/blob/main/examples/demo.ipynb
+./examples/force_critique.ipynb<br>
+<img src="./images/Exemple_force_critique.png" style="width:50%;"></img>
 
 <li>Détermination de la force critique</li>
-https://colab.research.google.com/github/CossartSim/XBoard/blob/main/examples/force_critique.ipynb
+./examples/demo.ipynb
+</html>
