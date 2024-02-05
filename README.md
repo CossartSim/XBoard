@@ -5,7 +5,11 @@
 
 Cette API permet de lancer des exercices sur la poutre une fois que celle-ci est connectée.
 
-
+<h1>Tutoriel d'installation de l'API</h1>
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/watch?v=ByU0RZBco2k"
+  frameborder="0"/>
+  
 <h1>Exemples d'exercices</h1>
 <p>Ci-dessous, quelques exercices sont proposés pour servir de base</p>
 
