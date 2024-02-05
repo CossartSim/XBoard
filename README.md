@@ -6,8 +6,7 @@
 Cette API permet de lancer des exercices sur la poutre une fois que celle-ci est connectée.
 
 <h1>Tutoriel d'installation de l'API</h1>
-<a href="https://www.youtube.com/watch?v=ByU0RZBco2k">
-<video src="https://www.youtube.com/watch?v=ByU0RZBco2k" controls="controls" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px"></video>
+<a href="https://www.youtube.com/watch?v=ByU0RZBco2k">Vidéo installation de l'API</a>
 
 <h1>Exemples d'exercices</h1>
 <p>Ci-dessous, quelques exercices sont proposés pour servir de base</p>
